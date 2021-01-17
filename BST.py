@@ -92,7 +92,3 @@ else:
     print(search(r, searchKey).val)
 
 print("")
-print("")
-print("")
-print("")
-print("")
