@@ -83,12 +83,12 @@ print("")
 print("Pre-order traversal")
 preorder(r)
 print("")
-searchKey = 44
+searchKey = 40
 print("Search for key - "+ str(searchKey))
 
 if search(r, searchKey) is None:
     print("Not Found")
 else:
-    print(search(r, searchKey).val)
+    print("Key found: " + str(search(r, searchKey).val))
 
 print("")
